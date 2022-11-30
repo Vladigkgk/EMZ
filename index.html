@@ -25,7 +25,7 @@
             </nav>
 
 
-            <a class="btn" href="#">Связаться с нами</a>
+            <a class="btn" href="#contacts">Связаться с нами</a>
 
 
         </div>
@@ -37,6 +37,7 @@
 
     <div class="intro" id="intro">
         <div class="container">
+          <p class="intro_text">Запуск 1 очереди IV квартал 2023 г.   Ввод в производство всего комплекс IV квартал 2024</p>
             <div class="intro__inner">
               <div class="intro_img">
                 <img class="intro_img_img" src="assets/images/intro/noname.svg" alt="">
@@ -81,7 +82,7 @@
             </div>
         </div>
         <div class="services__btn">
-          <a class="btn" href="#">Связаться с нами</a>
+          <a class="btn" href="#contacts">Связаться с нами</a>
         </div>
       </div>
     </div>
@@ -123,16 +124,44 @@
     <div class="machine">
       <div class="container">
         <h2 class="machine__title">ОБОРУДОВАНИЕ</h2>
-        <p class="machine__row">Токарно-фрезерный обрабатывающий центр ЧПУ WFL 50 (Австрия)</p>
-        <p class="machine__row">Токарно-фрезерный обрабатывающий центр ЧПУ WFL 30 (Австрия)</p>
-        <p class="machine__row">Вертикальный фрезерный пятиосевой обрабатывающий центр с ЧПУ Hermle AG C 62 U MT (Германия)</p>
-        <p class="machine__row">Токарно-карусельный обрабатывающий центр VDM 1000 (Германия)</p>
-        <p class="machine__row">Фрезерный портал VERXA M (Испания)</p>
-        <p class="machine__row">Фрезерный портал ORIX (Испания)</p>
+        <div class="machine__row">
+          <p class="machine__row_text">Токарно-фрезерные обрабатывающие центры с ЧПУ</p>
+          <img class="machine__image" src="assets\images\arrow.svg" alt="">
+        </div>
+        <div class="machine__row">
+          <p class="machine__row_text">Вертикальный фрезерный пятиосевой обрабатывающий центр с ЧПУ</p>
+          <img class="machine__image" src="assets\images\arrow.svg" alt="">
+        </div>
+        <div class="machine__row">
+          <p class="machine__row_text">Токарно-карусельные обрабатывающие центры с ЧПУ</p>
+          <img class="machine__image" src="assets\images\arrow.svg" alt="">
+        </div>
+        <div class="machine__row">
+          <p class="machine__row_text">Фрезерные порталы для обработки крпногабаритных деталей</p>
+          <img class="machine__image" src="assets\images\arrow.svg" alt="">
+        </div>
       </div>
     </div>
 
-    <div class="contacts">
+    <div class="news">
+      <div class="container">
+        <h2 class="new_title">НОВОСТИ КОМПАНИИ</h2>
+        <div class="news__container">
+          <a class="news__popup" href="assets\pages\news.html">
+            <img class="news__image" src="assets\images\news\docpng.png" alt="">
+            <p class="news__data">29 Ноября 2022 г.</p>
+            <p class="news__text">ТОО «ЕМЗ» зарегестрировано в качестве участника СЭЗ «Павлодар»</p>
+          </a>
+          <a class="news__popup" href="#">
+            <img class="news__image news__image--hands" src="assets\images\news\handspng.png" height="100" alt="">
+            <p class="news__data">1 Декабря 2022 г.</p>
+            <p class="news__text">ТОО «ЕМЗ» приступило к выбору подрядчика для проектирования строительной части производственной площадки</p>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="contacts" id="contacts">
       <div class="container">
         <div class="contacts_container">
           <h2 class="contacts_title">НАШИ КОНТАКТЫ</h2>
@@ -140,7 +169,7 @@
           <a class="contact_email" href="mailto:emz@emzavod.kz">emz@emzavod.kz</a>
           <p class="contact_addres">РК, г. Павлодар, СЭЗ «Павлодар»</p>
           <div class="map">
-            <img src="assets\images\map.svg" alt="">
+            <iframe class="map_iframe" src="https://yandex.ru/map-widget/v1/?um=constructor%3A3f2489561200ed50709632cd69f762b89b6655fa249bc273a6ad4c15adb86992&amp;source=constructor" width="800" height="500" frameborder="0"></iframe>
           </div>
         </div>
       </div>
@@ -153,7 +182,7 @@
             <img class="header__logo__img" src="assets/images/logo/logoemz.svg">
           </div>
           <div class="footer_return">
-            <p class="footer_text">Перейти в начало сайта</p>
+            <a class="footer_text" href="#intro">Перейти в начало сайта</a>
           </div>
           <div class="footer_contacts">
             <h2 class="footer_contacts_title">НАШИ КОНТАКТЫ</h2>
