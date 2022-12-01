@@ -50,8 +50,8 @@ hr {
     margin-top: 100px;
     margin-bottom: 290px;
     width: 100%;
-    max-height: 900px;
-    min-height: 500px;
+    max-height: 500px;
+    min-height: 400px;
     position: relative;
 
     background-color: #fff;
@@ -71,6 +71,11 @@ hr {
   text-align: center;
 
   color: #FF5E71;
+}
+
+.intro__text__begin {
+  display: flex;
+  justify-content: space-between;
 }
 
 .intro__inner {
@@ -323,9 +328,6 @@ hr {
 }
 
 .services__title {
-  /* margin-left: 20%; */
-
-  padding-top: 90px;
   padding-bottom: 78px;
 
   font-family: 'Montserrat';
@@ -476,11 +478,10 @@ color: #FF5E71;
 }
 
 .machine {
-  padding-bottom: 90px;
+
 }
 
 .machine__title {
-  margin-top: 90px;
   margin-bottom: 40px;
 
   font-family: 'Montserrat';
@@ -539,8 +540,6 @@ color: #000000;
 .news__container {
   display: flex;
   justify-content: space-between;
-
-  padding-bottom: 90px;
 }
 
 .news__popup {
@@ -600,6 +599,10 @@ color: #000000;
 
 .inter {
   height: 90px;
+}
+
+.inter--services {
+  background-color: #F2F2F2;
 }
 
 .contacts {
